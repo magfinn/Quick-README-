@@ -2,7 +2,7 @@
 <h1 align="center">✨Quick, Read Me!✨</h1> 
 <a href="https://opensource.org/licenses/MPL""> <img alt = "License MPL" src="https://img.shields.io/badge/license-MPL-success.svg" target="_blank" /></a>                                                                                                  
                                                                                                    
-## 📜 [Description](#description)
+## 📜 Description
                                                                                                    
 A quick and responsive Readme generator accessed through the command line. You can ceate a beautiful and comprehensive readme.md file and standardize your own layout for future projects in minutes. *Quick, Read Me!* was developed after creating many a lackluster readme.md. Typically left until the end, the readme.md can become overlooked as a developer, but shouldn't be.
 > **Your readme.md is your project's first impression!** Make it a good one!
@@ -17,7 +17,7 @@ Make sure that you have [Node.js](https://node.js) installed. Once installed, yo
 > ``` npm install inquirer ```                                                                                                   
                                                                                             
 
-## 🚀 [Usage](#usage)
+## 🚀 Usage
                                                                                                    
 1. Clone this repository into your local file: 
                                                                                                    
