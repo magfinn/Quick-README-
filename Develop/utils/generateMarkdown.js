@@ -1,58 +1,67 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
-function generateMarkdown({title, description, link, username, usage, install, languages, credits, attribution}) {
+//Function to generate markdown for README
+function generateMarkdown({username, email, title, repoTitle, descriptionWhat, descriptionWhy, link, usage, requirements, contribute, credits, attribution, license, fullName, tests}) {
   return `
-#${title}
+<h1 align="center">✨${title}✨</h1>
 
-##Table of Contents
-* [Description] (#Description)
-* [Usage] (#Usage)
-* [Installation] (#Install)
-* [Credits] (#Credits)
-* [License] (#License)
-* [Tests] (#Tests)
-* [Questions] (#Questions)
+<p>
+<a href="https://opensource.org/licenses/${license}">
+<img alt = "License ${license}" src="https://img.shields.io/badge/license-${license}-success.svg" target="_blank" /></a>
+</p>
 
-// Add a screenshot here
+## 📜 Description
+>${descriptionWhat}
 
-## Description
-${description}
+${descriptionWhy}
 
-## Usage
-${usage}
+🔗 <a href = '${link}'>Link<a/>
 
-${link}
+## ✅ Installing / Getting Started
 
-## Installation
-${install}
+> ### 🧰 Requirements
 
-*Languages Used:*
-${languages}
+>
 
-## Credits
-${credits}
+>${requirements}
 
-${attribution}
+## 🚀 Usage
+>
+>${usage}
 
-## License
+## 🙌 Credits
 
-## Tests
+>
 
-##Questions?
+>${credits}
 
-Contact me by writing a comment on Github @${username} or by [e-mail] (${email}).
+>
 
+>>${attribution}
+
+## 🚥 Tests
+
+${tests}
+
+## 🤝 Contributing
+
+${contribute}
+
+
+
+## ❓ Questions?
+
+>Have questions or need more information? Contact me by <a href='mailto:${email}'>e-mail</a>.
+
+**${fullName}**
+
+- Github: [@${username}](https://github.com/${username})
+
+## 📝 License
+
+This project is [${license}](https://opensource.org/licenses/${license}) licensed.
+
+---
+
+_This README was generated with ❤️ by [Quick, Read Me!](https://github.com/magfinn/Quick-README-)
 `;
 }
 
