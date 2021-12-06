@@ -2,7 +2,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require('./Develop/utils/generateMarkdown');
-const questions = require('./Develop/utils/questions.js');
+const questions = require('./utils/questions.js');
 
 //Return answers to prompts as an array
 const promptUser = (array) => {
