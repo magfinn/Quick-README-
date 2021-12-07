@@ -1,5 +1,5 @@
 //Function to generate markdown for README
-function generateMarkdown({username, email, title, repoTitle, descriptionWhat, descriptionWhy, link, usage, requirements, contribute, credits, attribution, license, fullName, tests}) {
+function generateMarkdown({username, email, title, descriptionWhat, descriptionWhy, link, usage, requirements, contribute, credits, attribution, license, fullName, tests}) {
   return `
 <h1 align="center">✨${title}✨</h1>
 
