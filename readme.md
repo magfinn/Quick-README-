@@ -43,7 +43,7 @@ Make sure that you have [Node.js](https://node.js) installed. Once installed, yo
 <img src = "/assets/newreadme.png"/>
 
 
-<img src = "/assets/Demo.mov"/>
+See a <a href = "https://watch.screencastify.com/v/0cP5GXouYYJoD5YeXx2M">full demo here</a>!
 
 
 ## 🙌 Credits                                                                                                                                                                                                 
