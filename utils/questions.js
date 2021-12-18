@@ -52,19 +52,19 @@ const questions = [
             }
         }
     },
-    // {
-    //     type: "input",
-    //     name: "repoTitle",
-    //     message: "Enter the title of your project repository (Required).",
-    //     validate: repoTitleInput => {
-    //         if(repoTitleInput) {
-    //             return true;
-    //         } else {
-    //             console.log("Please enter your repo's title!");
-    //             return false;
-    //         }
-    //     }
-    // },
+    {
+        type: "input",
+        name: "repoTitle",
+        message: "Enter the title of your project repository (Required).",
+        validate: repoTitleInput => {
+            if(repoTitleInput) {
+                return true;
+            } else {
+                console.log("Please enter your repo's title!");
+                return false;
+            }
+        }
+    },
     {
         type: "input",
         name: "descriptionWhat",

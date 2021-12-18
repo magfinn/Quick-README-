@@ -1,11 +1,23 @@
 
 <h1 align="center">✨Quick, Read Me!✨</h1> 
-<a href="https://opensource.org/licenses/MPL""> <img alt = "License MPL" src="https://img.shields.io/badge/license-MPL-success.svg" target="_blank" /></a>                                                                                                  
-                                                                                                   
+<a href="https://opensource.org/licenses/MPL""> <img alt = "License MPL" src="https://img.shields.io/badge/license-MPL-success.svg" target="_blank" /></a> 
+
+## Table of Contents
+- [Description](#Description)
+- [Installing / Getting Started](#Install)
+- [Requirements](#Requirements)
+- [Usage](#Usage)
+- [Credits](#Credits)
+- [Tests](#tests)
+- [Contribution](#contribution)
+- [License](#license)
+
+
+
 ## 📜 Description
                                                                                                    
-A quick and responsive Readme generator accessed through the command line. You can ceate a beautiful and comprehensive readme.md file and standardize your own layout for future projects in minutes. *Quick, Read Me!* was developed after creating many a lackluster readme.md. Typically left until the end, the readme.md can become overlooked as a developer, but shouldn't be.
-> **Your readme.md is your project's first impression!** Make it a good one!
+A quick and responsive Readme generator accessed through the command line. You can ceate a beautiful and comprehensive README.md file and standardize your own layout for future projects in minutes. *Quick, Read Me!* was developed after creating many a lackluster README.md. Typically left until the end, the README.md can become overlooked as a developer, but shouldn't be.
+> **Your README.md is your project's first impression!** Make it a good one!
 
 🔗 [Link](https://github.com/magfinn/Quick-README-)
 
@@ -27,11 +39,14 @@ Make sure that you have [Node.js](https://node.js) installed. Once installed, yo
                                                                                                    
  > ``` node index.js ```
                                                                                                    
-3. Find your newsly created readme.md file in ./dist !  
+3. Find your newsly created README.md file in ./dist !  
+<img src = "/assets/newreadme.png"/>
 
-4. *(Optional)* Locate the license template you chose for this project in ./dist/licenses and include in your project's directory.                                                                                               
 
-## 🙌 Credits                                                                                                                                                                                                  
+<img src = "/assets/Demo.mov"/>
+
+
+## 🙌 Credits                                                                                                                                                                                                 
 Emoji Cheatsheet: [@ikatyang/ emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)                                                                                              
 
 ## 🚥 Tests
